@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Train Basic Model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/your_script_name.py",
+      "args": ["--train", "--model", "basic"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Train Advanced Model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/your_script_name.py",
+      "args": ["--train", "--model", "advanced"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Evaluate Basic Model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/your_script_name.py",
+      "args": ["--eval", "--model", "basic"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Evaluate Advanced Model",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/your_script_name.py",
+      "args": ["--eval", "--model", "advanced"],
+      "console": "integratedTerminal"
+    }
+  ]
+}
